@@ -1,0 +1,199 @@
+/* line 1, ../sass/style.scss */
+HTML,
+body
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* line 7, ../sass/style.scss */
+.border1 {
+  border: 1px solid black;
+}
+
+/* line 11, ../sass/style.scss */
+.bg-whitesmoke {
+  background: whitesmoke;
+}
+
+/* line 17, ../sass/style.scss */
+.c-border {
+  border-radius: 0px;
+}
+
+/* line 20, ../sass/style.scss */
+.bg-and-border {
+  border: none;
+  background: transparent;
+}
+
+/* line 24, ../sass/style.scss */
+.text-sm {
+  font-size: 1rem;
+}
+
+/* line 28, ../sass/style.scss */
+.banner {
+  background-image: url("../Images/home-banner-1.jpg");
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+@media only screen and (max-width: 400px) {
+  /* line 28, ../sass/style.scss */
+  .banner {
+    background-image: url("../Images/home-banner-1-mobile-portrait.jpg");
+  }
+}
+/* line 40, ../sass/style.scss */
+.banner h1 {
+  max-width: 700px;
+  font-size: 4rem;
+  margin-top: 60px;
+  margin-left: 0%;
+}
+@media only screen and (max-width: 400px) {
+  /* line 40, ../sass/style.scss */
+  .banner h1 {
+    font-size: 3rem;
+  }
+}
+/* line 48, ../sass/style.scss */
+.banner h1 span {
+  display: inline-block;
+}
+/* line 59, ../sass/style.scss */
+.banner p {
+  font-size: 2rem;
+  max-width: 600px;
+  margin-left: 0%;
+}
+@media only screen and (max-width: 400px) {
+  /* line 59, ../sass/style.scss */
+  .banner p {
+    font-size: 1.75rem;
+  }
+}
+
+/* line 70, ../sass/style.scss */
+.b-pad {
+  padding: 0.1rem 0.5rem;
+}
+
+/* line 77, ../sass/style.scss */
+.heading {
+  max-width: fit-content;
+}
+
+/* line 81, ../sass/style.scss */
+.cb-height {
+  position: relative;
+  margin: 0px;
+}
+
+/* line 92, ../sass/style.scss */
+.four .card-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+/* line 103, ../sass/style.scss */
+.four .card-overlay .o-img {
+  margin: 0 15%;
+}
+@media only screen and (max-width: 574px) {
+  /* line 103, ../sass/style.scss */
+  .four .card-overlay .o-img {
+    margin: 0 33%;
+  }
+}
+/* line 110, ../sass/style.scss */
+.four .card-overlay .o-text {
+  font-size: small;
+}
+/* line 115, ../sass/style.scss */
+.four .card-body:hover .card-overlay {
+  opacity: 1;
+}
+
+/* line 137, ../sass/style.scss */
+.five .row-wrapper {
+  width: 80%;
+}
+/* line 139, ../sass/style.scss */
+.five .row-wrapper .fourth-col {
+  margin-right: 0px;
+}
+/* line 142, ../sass/style.scss */
+.five .row-wrapper .fifth-col {
+  margin-left: 0px;
+}
+
+/* line 153, ../sass/style.scss */
+.six .row-wrapper {
+  width: 95%;
+}
+/* line 155, ../sass/style.scss */
+.six .row-wrapper .col-w {
+  max-width: 7.5rem;
+  position: relative;
+}
+/* line 159, ../sass/style.scss */
+.six .row-wrapper .padding-l-r {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 163, ../sass/style.scss */
+.six .row-wrapper .box {
+  width: 100%;
+  margin: 50px auto;
+  background: #00bfb6;
+  padding: 20px;
+  text-align: center;
+  font-weight: 900;
+  color: #fff;
+  font-family: arial;
+  position: relative;
+}
+/* line 174, ../sass/style.scss */
+.six .row-wrapper .sb4::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: relative;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid skyblue;
+  border-bottom: 20px solid transparent;
+  top: 60px;
+  right: 70%;
+  bottom: -19px;
+}
+
+/* line 192, ../sass/style.scss */
+.footer h5 {
+  font-size: 1rem;
+  padding: 0rem 2rem;
+}
+/* line 197, ../sass/style.scss */
+.footer ul h6 {
+  font-size: .8rem;
+}
+/* line 201, ../sass/style.scss */
+.footer ul li {
+  list-style: none;
+  font-size: .6rem;
+  color: lightgray;
+}
+/* line 208, ../sass/style.scss */
+.footer .footer-text {
+  text-align: center;
+  font-size: .8rem;
+}
